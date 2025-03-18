@@ -69,7 +69,3 @@ from transformers import pipeline
 caption_generator = pipeline("image-to-text", model="./captioning-results")
 print(caption_generator("test_image.jpg"))
 ```
-
----
-
-This README provides a **complete overview** of your project! 🚀
